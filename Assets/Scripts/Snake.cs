@@ -69,7 +69,7 @@ public class Snake : MonoBehaviour
 
     public void ResetState()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0.5f;
 
         direction = Vector2.right;
         transform.position = Vector3.zero;
